@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
+        sender.setImage(UIImage(named: "nought.png"), for: [])
+        
         print(sender.tag)
     }
     
